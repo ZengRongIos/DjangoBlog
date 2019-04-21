@@ -27,7 +27,7 @@ DEBUG = True
 TESTING = len(sys.argv) > 1 and sys.argv[1] == 'test'
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['*', '127.0.0.1', 'example.com']
+ALLOWED_HOSTS = ['*', '127.0.0.1', 'zengr.xyz']
 # Application definition
 
 
@@ -101,7 +101,7 @@ DATABASES = {
         'NAME': 'djangoblog',
         'USER': 'root',
         'PASSWORD':'Zrpassword123.' ,
-        'HOST': 'localhost',
+        'HOST': '120.78.215.219',
         'PORT': 3306,
     }
 }
